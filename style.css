@@ -155,6 +155,11 @@ header input {
   .piano-keys .key :nth-child(17) {
     display: none;
   }
+  @media screen and (max-width:412px){
+    #name{
+      font-size:14px ;
+    }
+}
   .piano-keys .white {
     width: 50px;
   }
